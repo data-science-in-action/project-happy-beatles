@@ -1,0 +1,20 @@
+---
+title: "病例数据分析"
+author: "Mo ruizhe"
+date: "2020/6/2"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 病例分析
+- 数据来源：
+    + 深圳市政府数据开放平台（https://opendata.sz.gov.cn/data/search/toSearch）
+    + 温州市卫健委(http://wjw.wenzhou.gov.cn/)
+- 时间：2020年1月27—2020年2月17日
+- 地区：深圳市和温州市
+- 病例特征：病例来源、性别、年龄
