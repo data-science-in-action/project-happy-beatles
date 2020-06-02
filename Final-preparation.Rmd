@@ -10,3 +10,9 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+# 1、引言
+# 2、描述性统计
+# 3、合成控制法
+# 4、疫情增长率
+# 5、总结及建议
