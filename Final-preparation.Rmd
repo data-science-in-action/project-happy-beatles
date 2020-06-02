@@ -1,0 +1,12 @@
+---
+title: '从病例数据对比分析影响不同地区疫情的特征 '
+author: "Happy Beatles"
+date: "2020/5/22"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
