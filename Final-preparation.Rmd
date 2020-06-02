@@ -1,7 +1,7 @@
 ---
-title: '从病例数据对比分析影响不同地区疫情的特征 '
+title: '基于深圳、温州两市的新冠疫情政策防控效果分析 '
 author: "Happy Beatles"
-date: "2020/5/22"
+date: "2020/6/5"
 output:
   slidy_presentation: default
   ioslides_presentation: default
