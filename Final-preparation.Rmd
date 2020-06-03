@@ -29,10 +29,10 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 
 
-- 总结及建议
+- 结论及建议
 
 
-# 引言
+# 1、引言
 
 ## 研究背景及意义
 <br>
@@ -58,14 +58,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## 参考文献
 ### **在防控效果量化估计方面**
-<br>
 
 - 王学钦团队使用合成控制法拟合“虚拟”温州来估计温州市的防控效果，发现温州在政策实施2-3天后效果明显，如果不实施政策，温州市在2月25日每十万人将增加5人确诊。
 - 王刚使用疫情动态传播模型定量评估中国政府的管控措施对这场疫情的影响，发现从2020年1月24日~2月18日, 全国施行的严格政策管控措施使得1692万~7605万人免于遭受新型冠状病毒的感染。
 - 综上，在以上文献的基础上，本文将会总结温州及深圳两市的疫情特征，使用疫情动态传播模型以及合成控制法对温州及深圳两市防控效果进行量化评估，并分别估计政策推迟的逐日累计效应，结合相关政策提出参考建议。
 
 ## 参考文献
-<br>
 
 - [1]Maier B F, Brockmann D. Effective containment explains sub-exponential growth in confirmed cases of recent COVID-19 outbreak in Mainland China. 2020, arXiv: 2002.07572v1.
 - [2]Kucharski A J, Russell T W, et al. Early dynamics of transmission and control of COVID-19: A mathematical modelling study.
@@ -79,11 +77,24 @@ medRxiv, 2020, doi: 10.1101/2020.01.31.20019901
 
 - [5]王学钦,史家睿,等.从病例数据对比分析影响温州与深圳疫情的特征[R],2020.03.15
 - [6]刘友金,曾小明.房产税对产业转移的影响:来自重庆和上海的经验证据[J].中国工业经济,2018(11):98-116.
-- [7]Alberto abadie, Alexis Diamond, and Jens Hainmueller.Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program 
+- [7]Alberto abadie, Alexis Diamond, and Jens Hainmueller. Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program 
 - [8]连玉君.合成控制法 (Synthetic Control Method) 及 Stata实现.
+
+## 数据来源
+|变量位置|变量名称|数据来源|
+|---|---|---|
+|描述性统计部分<br>疫情增长率部分|累计确诊人数<br>治愈人数<br>死亡人数|[深圳市政府数据开放平台][1]<br>[温州市卫生健康委员会][2]<br>[武汉市卫生健康委员会][3]<br>[国家卫生健康委员会][4]|
+|合成控制法部分|累计确诊人数<br>地区生产总值<br>人口密度<br>地区常住人口|各省市卫生健康委员会<br>省级统计年鉴（2019）|
+|全文|政策措施|各省、市卫健委及新闻播报|
+
+[1]: https://opendata.sz.gov.cn/data/search/toSearch
+[2]: http://wjw.wenzhou.gov.cn/
+[3]: http://wjw.wuhan.gov.cn/
+[4]: http://www.nhc.gov.cn/
+
 
 
 # 2、描述性统计
 # 3、疫情增长率
 # 4、合成控制法
-# 5、总结及建议
+# 5、结论及建议
