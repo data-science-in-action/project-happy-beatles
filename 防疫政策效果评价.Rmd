@@ -1,1 +1,22 @@
+---
+title: "防疫政策效果评价"
+author: "Happy Beatles"
+date: "2020/6/5"
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 防疫政策效果评价：以温州、深圳为例
+<br/>
+
+- 疫情显露初期，各地区积极出台防控新冠肺炎政策，如何防疫评价政策效果？
+
+- 合成控制法是评价政策效果的一种“诚实、透明”的方法。本章以温州市和深圳市两地区为例，探究其防疫政策效果。
+
+- 此外，基于此方法，本章继续探讨并量化了两地区政策推迟实施所造成的后果。
 
