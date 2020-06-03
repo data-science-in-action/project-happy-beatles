@@ -41,9 +41,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ---
 
-
 ### 聚类结果分析
-
 
 - 根据SSE准则将地区分为四类，每个聚类中的个案数目结果如下：
 
@@ -88,7 +86,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ### 合成温州与真实温州对比
 <br/>
 
-
 |  Variable    |  Treated  | Synthetic | 
 |  --------    |  -------- | --------- |
 |    lnGDP     |  8.700541 | 8.832305  |
@@ -98,4 +95,3 @@ knitr::opts_chunk$set(echo = TRUE)
 | 发病率(1/24) |  2.440860 | 2.440913  |
 
 ---
-
